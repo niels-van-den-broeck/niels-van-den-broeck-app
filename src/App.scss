@@ -1,0 +1,45 @@
+$primary-black: #1A1A1D;
+$secondary-black: #4E4E50;
+$primary-red: #6F2232;
+$secondary-red: #950740;
+$tertiary-red: #C3073F;
+$primary-white: #ECE8E1;
+
+.App {
+  header, main {
+    background-size: cover;
+    display: flex;
+    
+    font-size: calc(10px + 2vmin);
+    color: $primary-white;
+  }
+
+  header {
+    background-color: $primary-red;
+    justify-content: space-between;
+    min-height: 15vh;
+
+    h1, p {
+      margin-left: 10px;
+    }
+  }
+
+  main {
+    background-color: $primary-black;
+    flex-direction: column;
+    color: $primary-white;
+    height: 100vh;
+
+    .banner {
+      height: 40vh;
+      width: 100%;
+      background-color: $primary-white;
+
+      img {
+        max-height: 100%;
+        min-width: 100%;
+        opacity: .4;
+      }
+    }
+  }
+}
