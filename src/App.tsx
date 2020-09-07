@@ -73,7 +73,7 @@ function App() {
             <h1>Niels Van den Broeck</h1>
             <p>Fullstack Javascript developer</p>
           </div>
-          <div>
+          <div className="login-wrapper">
             {currentUser ? (
               <>
                 <span>Welkom {currentUser.displayName}</span>
