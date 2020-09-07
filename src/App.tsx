@@ -1,4 +1,4 @@
-import React, { useRef, useState, useCallback, createContext, useEffect } from 'react';
+import React, { useRef, useState, useCallback, createContext } from 'react';
 import app, { User } from 'firebase/app';
 import 'firebase/auth';
 
